@@ -1,3 +1,4 @@
+from autonomy.hunter import HunterMission
 from communication.uav_communication import UAVCommunication
 from utils.camera import Camera
 
@@ -13,10 +14,13 @@ class UAV:
 
     def __init__(self):
         self.communication = UAVCommunication(self.ip, self.video_server_port)
+        self.hunter = HunterMission()
         self.camera = Camera()
 
     def start(self):
-        self.communication.start_communication()
+        #self.communication.start_communication()
+        self.hunter.start()
+
 
 
 

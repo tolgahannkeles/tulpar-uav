@@ -1,6 +1,7 @@
 import threading
 import time
 
+from utils.camera_util import CameraUtil
 from utils.telemetry import TelemetryUtil
 from utils.udp_client import UDPClient
 from utils.camera import Camera
@@ -22,6 +23,7 @@ class UAVCommunication:
         while True:
             try:
                 frame = self.camera.get_frame()
+                frame = CameraUtil.generate_frame_for_comm(frame)
                 encoded_frame = FrameDecoder.encode(frame)
                 self.video_client.send(encoded_frame)
             except Exception as e:
