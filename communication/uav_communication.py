@@ -1,11 +1,11 @@
 import threading
 import time
 
-from utils.camera_util import CameraUtil
+from vision.camera_util import CameraUtil
 from utils.telemetry import TelemetryUtil
 from utils.udp_client import UDPClient
-from utils.camera import Camera
-from utils.frame_decoder import FrameDecoder
+from vision.camera import Camera
+from vision.frame_decoder import FrameDecoder
 
 
 class UAVCommunication:

@@ -1,6 +1,6 @@
 from autonomy.hunter import HunterMission
 from communication.uav_communication import UAVCommunication
-from utils.camera import Camera
+from vision.camera import Camera
 
 
 class UAV:
