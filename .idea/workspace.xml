@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0cfcb3-164a-42ae-a31d-391b9930da0e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/autonomy/hunter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/camera_util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/target_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/test-1.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/test-2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video/test-3.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uav.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uav.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/video2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/video3.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/communication/uav_communication.py" beforeDir="false" afterPath="$PROJECT_DIR$/communication/uav_communication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vision/camera.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision/camera.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +32,12 @@
     &quot;assignee&quot;: &quot;tolgahannkeles&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tolgahannkeles/tulpar-uav.git&quot;,
-    &quot;accountId&quot;: &quot;c714afc6-184a-4d2f-8471-062790e47121&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tolgahannkeles/tulpar-uav.git",
+    "accountId": "b5593f55-2bd7-4a9b-9dbb-ccb3eaca8b8a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -54,23 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.telemetry.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/tulpar/tulpar-uav/video&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.telemetry.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/tulpar/detection-and-tracking-model",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\tulpar\tulpar-uav\video" />
@@ -79,6 +73,7 @@
       <recent name="E:\projects\tulpar\uav" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tulpar\tulpar-uav\vision" />
       <recent name="E:\projects\tulpar\uav\utils" />
       <recent name="E:\projects\tulpar\uav\communication" />
     </key>
@@ -116,8 +111,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
-        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.25659.43" />
+        <option value="bundled-python-sdk-181015f7ab06-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
@@ -142,6 +137,11 @@
       <workItem from="1741002218915" duration="1866000" />
       <workItem from="1741011279829" duration="438000" />
       <workItem from="1741108160230" duration="14000" />
+      <workItem from="1741433173070" duration="9266000" />
+      <workItem from="1741525955433" duration="636000" />
+      <workItem from="1741526606030" duration="7272000" />
+      <workItem from="1741800308627" duration="16000" />
+      <workItem from="1744998891369" duration="782000" />
     </task>
     <servers />
   </component>
@@ -149,8 +149,9 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tulpar_uav$test.coverage" NAME="test Coverage Results" MODIFIED="1741527561839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/uav$telemetry.coverage" NAME="telemetry Coverage Results" MODIFIED="1736872469417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/tulpar_uav$main.coverage" NAME="main Coverage Results" MODIFIED="1741011371774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tulpar_uav$main.coverage" NAME="main Coverage Results" MODIFIED="1741538182885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/uav$main.coverage" NAME="main Coverage Results" MODIFIED="1737381902082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
